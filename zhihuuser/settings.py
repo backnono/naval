@@ -107,7 +107,7 @@ ITEM_PIPELINES = {
 MONGO_URI = 'localhost'
 MONGO_DATABASE = 'zhihu'
 
-SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+# SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 
 # DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
